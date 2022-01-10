@@ -1,0 +1,42 @@
+.slide img, 
+.card-image{
+    height: 450px;
+    object-fit: cover;
+}
+.pagination-border :hover{
+  border: 1px solid #000 !important ;
+  /* text-decoration: underline; */
+}
+
+.pointer{
+    cursor: pointer;
+}
+.Home-link :hover{
+text-decoration: underline;
+}
+
+.mobileVisible {
+  display: none  !important;
+}
+
+.list-first :first-child {
+    margin-right: 0rem !important;
+}
+
+.mobileHidden {
+  display: block;
+}
+
+@media only screen and (max-width: 767px) {
+  /* .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1);
+  } */
+
+  .mobileVisible {
+    display: block  !important;
+  }
+  
+  .mobileHidden {
+    display: none !important;
+  }
+}
